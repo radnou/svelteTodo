@@ -74,13 +74,13 @@
 
 <!-- {JSON.stringify(todos)} -->
 
-<h2>Add todo:</h2>
+<h2 class="text-3xl font-bold underline">Add todo:</h2>
 <label for="todoInput">Description </label><input
 	type="text"
 	bind:value={newItem}
 	placeholder="What do you want to list ?"
 />
-<button on:click|preventDefault={newTodo}>Add todo</button>
+<button class="btn btn-primary" on:click|preventDefault={newTodo}>Add todo</button>
 
 <style>
 	.checked {
