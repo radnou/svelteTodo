@@ -18,7 +18,7 @@
 </script>
 
 <ul class="navbar">
-	<li><a href="/reactivity/arrays" class="link link-info">Arrays Update</a></li>
+	<li><a href="/partOne/reactivity/arrays" class="link link-info">Arrays Update</a></li>
 </ul>
 <h1 class="text-xl">Reactivity</h1>
 <h3>Assignments</h3>

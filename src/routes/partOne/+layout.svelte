@@ -1,21 +1,22 @@
 <script lang="ts">
-	import '../app.css';
 	import Navbar from '$lib/components/navbar.svelte';
 
 	let menu = [
 		{
-			path: 'partOne',
-			label: 'Part 1 : Basic Svelte'
+			path: 'partOne/introduction',
+			label: 'a - Introduction'
 		},
 		{
-			path: 'partTwo',
-			label: 'Part 2 : Advanced Svelte'
-		},{
-			path: 'partThree',
-			label: 'Part 3 : Basic SvelteKit'
-		},{
-			path: 'partFour',
-			label: 'Part 4 : Advanced SvelteKit'
+			path: 'partOne/reactivity',
+			label: 'b - Reactivity'
+		},
+		{
+			path: 'partOne/props',
+			label: 'c - Props'
+		},
+		{
+			path: 'partOne/logic',
+			label: 'd - logic '
 		}
 	];
 </script>
